@@ -1,0 +1,25 @@
+title: Jaime Victoria Site
+email: jaime.victoria@gmail.com
+description: Professional Ruby on Rails Web Developer
+url: jaime-evr.github.io
+baseurl: /
+twitter_username: JaimeVictoria90
+github_username: jaime-evr
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
