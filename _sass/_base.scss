@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Raleway-Regular;
+
+  &.--bold {
+    font-family: Raleway-Bold;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+body, p, a {
+  font-family: Roboto-Regular;
+
+  &.--bold {
+    font-family: Roboto-Bold;
+  }
+}
+
+body {
+  color: black;
+}
+
+main {
+  margin-top: 70px;
+  padding: 36px 0;
+}

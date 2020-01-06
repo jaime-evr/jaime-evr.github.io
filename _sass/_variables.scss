@@ -1,0 +1,17 @@
+$grid-mobile: 481px;
+$grid-tablet: 1024px;
+
+$is-mobile: 'mobile';
+$is-tablet: 'tablet';
+$is-desktop: 'desktop';
+$is-touch: 'touch';
+$is-widescreen: 'widescreen';
+
+$breakpoints: (
+  $is-mobile '(max-width: #{$grid-mobile - 1})',
+  $is-tablet '(min-width: #{$grid-mobile}) and (max-width: #{$grid-tablet - 1})',
+  $is-desktop '(min-width: #{$grid-tablet})',
+  $is-touch '(max-width: #{$grid-tablet - 1})',
+  $is-widescreen '(min-width: #{$grid-mobile - 1})',
+);
+

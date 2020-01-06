@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('/assets/fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url('/assets/fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('/assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('/assets/fonts/Roboto-Bold.ttf');
+}
+
+label {
+  font-family: Raleway-Bold;
+}
+
+.headline {
+  font-family: Raleway-Regular;
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 96px;
+
+  @include media-query($is-tablet) {
+    font-size: 64px;
+    line-height: 74px;
+  }
+
+  @include media-query($is-mobile) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  &--two {
+    font-family: Raleway-Regular;
+    font-size: 64px;
+    letter-spacing: 1px;
+    line-height: 80px;
+
+    @include media-query($is-tablet) {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    @include media-query($is-mobile) {
+      font-size: 36px;
+      line-height: 46px;
+    }
+  }
+
+  &--three {
+    font-family: Raleway-Regular;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 64px;
+
+    @include media-query($is-tablet) {
+      font-size: 40px;
+      line-height: 56px;
+    }
+
+    @include media-query($is-mobile) {
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+
+  &--four {
+    font-family: Raleway-Regular;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+
+    @include media-query($is-tablet) {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    @include media-query($is-mobile) { font-size: 28px; }
+  }
+
+  &--five {
+    font-family: Raleway-Regular;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 38px;
+
+    @include media-query($is-mobile) {
+      font-size: 22px;
+      line-height: 32px;
+    }
+  }
+
+  &--six {
+    font-family: Raleway-Regular;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 24px;
+
+    @include media-query($is-mobile) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  &--bold {
+    font-family: Raleway-Bold;
+    font-weight: bold;
+  }
+}
+
+.text {
+  &--one {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+
+    @include media-query($is-tablet) {
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    @include media-query($is-mobile) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+  &--two {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+
+    @include media-query($is-mobile) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+  &--three {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+
+  &--four {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+
+    @include media-query($is-mobile) {
+      font-size: 11px;
+    }
+  }
+
+  &--bold { font-family: Roboto-Bold; }
+}
